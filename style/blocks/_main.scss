@@ -1,0 +1,41 @@
+.html {
+   min-height: 100%;
+}
+
+body {
+   margin: 0%;
+   height: 100%;
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   display: flex;
+   flex-direction: column;
+   overflow-x: hidden;
+}
+
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+.container {
+   margin: 0 auto;
+   width: 1140px;
+}
+
+@media (max-width: $tablet-breakpoint) {
+   .container {
+      width: 736px;
+   }
+}
+
+@media (max-width: $mobile-breakpoint) {
+   .container {
+      width: 375px;
+   }
+}
+
+.main {
+   flex-grow: 1;
+}
